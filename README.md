@@ -14,7 +14,7 @@ The source code was initialized from [spring initializr](https://start.spring.io
 This stage produces a jar file which is then copied into the docker image.
 
 ### docker image:
-- `docker build . --tag b4rtware/morpho-eureka`
+- `docker build . --tag b4rtware/morpho-eureka:2.3.0-openjdk8-alpine`
 
 ## References
 - **Docker Morpho Eureka**: [Docker HUB](https://hub.docker.com/repository/docker/b4rtware/morpho-eureka) 
